@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: whitesmoke;
+    padding: 100px 40px;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+form {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px #d3d2d2;
+}
+
+form label {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 15px;
+
+    align-items: center;
+
+    padding: 5px 20px;
+}
+
+
+/*IMAGES SIZE*/
+label img {
+    width: 15px;
+    height: 15px;
+}
+
+/*COLORS*/
+.blue_color {
+    background-color: cornflowerblue;
+}
+.light_blue {
+    background-color: lightblue;
+}
+.completed_color {
+    background-color: #d3d2d2;
+}
+
+
+/*COMPLETED TASK*/
+.completed_task {
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.uncompleted_task {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/*Uncompleted square*/
+.uncompleted_square {
+    width: 12px;
+    height: 12px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
