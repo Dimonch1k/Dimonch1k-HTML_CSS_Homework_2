@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.fruit_list {
+    height: auto;
+    width: 600px;
+    background-color: pink;
+    padding: 20px 40px 20px 0;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 12px;
+    list-style-type: none;
+}
+
+
+ol li {
+    height: 35px;
+    width: auto;
+
+    background-color: #d26f6f;
+
+    display: flex;
+    flex-direction: row;
+}
+
+ol li p {
+    width: fit-content;
+}
+
+.fruit {
+    margin: 0;
+    padding: 4px 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 31, 67);
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 8px 12px;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #d26f6f;
+    color: whitesmoke;
+}
